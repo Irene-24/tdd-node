@@ -1,0 +1,11 @@
+{
+  "name": "express-ws",
+  "version": "1.0.0",
+  "description": "tdd with node/express",
+  "main": "app.js",
+  "author": "Irene-24",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  }
+}
