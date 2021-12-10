@@ -5,6 +5,10 @@
   "main": "app.js",
   "author": "Irene-24",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Irene-24/tdd-node.git"
+  },
   "devDependencies": {
     "eslint": "^8.4.1"
   }
