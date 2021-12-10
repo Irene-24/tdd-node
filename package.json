@@ -5,9 +5,16 @@
   "main": "app.js",
   "author": "Irene-24",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/Irene-24/tdd-node.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "devDependencies": {
     "eslint": "^8.4.1"
