@@ -1,11 +1,11 @@
-const express = require( 'express' );
+const express = require( "express" );
 const { port } = require( "./config" );
 
 const app = express();
 
-app.get( '/', ( req, res ) =>
+app.get( "/", ( req, res ) =>
 {
-    res.send( 'Hello World!' );
+    res.send( "Hello World!" );
 } );
 
 app.listen( port, () =>
