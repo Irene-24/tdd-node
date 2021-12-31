@@ -2,14 +2,10 @@ const { Router } = require( "express" );
 
 const router = Router();
 
-router.get( "/", ( req, res ) => 
-{
-    res.status( 200 ).json( { message: "users" } );
-} );
 
-router.post( "/", ( req, res ) => 
+router.post( "/register", ( req, res ) => 
 {
-
+    res.status( 201 ).json( { message: "User registered" } );
 } );
 
 module.exports = router;

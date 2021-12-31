@@ -1,9 +1,8 @@
 const express = require( "express" );
 const userRoutes = require( "./routes/user.routes" );
+const { prefix } = require( "./utils" );
 
 const app = express();
-
-const prefix = ( path, prefix = "/api/v1" ) => `${ prefix }/${ path }`;
 
 app.use( prefix( "users" ), userRoutes );
 
