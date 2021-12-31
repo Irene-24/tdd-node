@@ -2,7 +2,7 @@
   "name": "express-ws",
   "version": "1.0.0",
   "description": "tdd with node/express",
-  "main": "app.js",
+  "main": "index.js",
   "author": "Irene-24",
   "license": "MIT",
   "repository": {
@@ -12,8 +12,8 @@
   "scripts": {
     "test": "jest --watch",
     "lint": "eslint .",
-    "dev": "nodemon app",
-    "start": "node app"
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "engines": {
     "node": "^17.3.0"
